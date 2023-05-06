@@ -48,4 +48,4 @@ app.post('/', async (req, res) => {
     }
 })
 
-app.listen(5005, () => console.log('Server is running' + process.env.OPENAI_API_KEY));
+app.listen(5005, () => console.log('Server is running'));
