@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
 
   // fetch response from server
 
-  const response = await fetch('https://gpt4-backend-ahsp.onrender.com:3000', {
+  const response = await fetch('https://gpt4-backend-ahsp.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
