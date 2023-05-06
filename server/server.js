@@ -7,7 +7,7 @@ dotenv.config();
 
 const configuration = new Configuration({
     organization: "org-GIxVs4Rq0sOwtjNLDvL9YnPW",
-    apiKey: process.env.OPENAI_API_KEY,
+    apiKey: "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",
 });
 
 console.log(process.env.OPENAI_API_KEY);
@@ -48,4 +48,4 @@ app.post('/', async (req, res) => {
     }
 })
 
-app.listen(5000, () => console.log('Server is running' + process.env.OPENAI_API_KEY));
+app.listen(5005, () => console.log('Server is running' + process.env.OPENAI_API_KEY));
